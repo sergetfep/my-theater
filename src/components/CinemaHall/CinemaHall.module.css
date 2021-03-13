@@ -1,0 +1,12 @@
+/* .CinemaHall {
+  background-color: #b9a9a9;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
+
+.select {
+  margin-bottom: 15px;
+}
