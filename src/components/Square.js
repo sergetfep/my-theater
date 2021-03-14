@@ -5,8 +5,9 @@ export const Square = (props) => {
   let className;
 
   const onClick = () => {
-    props.free.splice(props.index, 1, !props.value);
-    props.setFree([...props.free]);
+    props.values.splice(props.index, 1, !props.value);
+    props.setFree({ ...props.free });
+    // props.setFree([...props.free]);
   };
 
   if (props.value) {
